@@ -5,6 +5,7 @@ common css
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
 }
 
 html {
@@ -789,7 +790,8 @@ CONTACT CSS
   border-radius: 25px;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-.text_area{} 
+
+
 .text_area .message{
   display: block;
   width: 100%;
@@ -837,8 +839,7 @@ CONTACT CSS
  padding: 25px 0 15px 0;
  
 }
-.container{}
-.inner_footer{}
+
 .inner_footer ul{
  display: flex;
  justify-content: center;
@@ -871,8 +872,7 @@ CONTACT CSS
 .inner_footer ul li a i{
  display: inline-block;
 }
-.footer_items{}
-.footer_items .items_list{}
+
 .footer_items .items_list .list{
  display: flex;
 }
